@@ -2,7 +2,9 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <link href="style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="navbar.css">
+        <script defer src="script.js"></script>
         <title>ABEP</title>
     </head>
     <body>
@@ -13,46 +15,77 @@
             height="50"
             width="150"
             />
-            <H1>AGBIOENG Processing Specialists Inc.</H1>
+            <h1 class="company-name">AGBIOENG Processing Specialists Inc.</h1>
             
+            <!-- Navbar code goes here -->
             <nav>
-                <a href="#">    home    </a>
-                <a href="#">    Partnership    </a>
-                <a href="#">    Descipline    </a>
-                <a href="#">    Partnership    </a>
-                <a href="#">    About Us    </a>
-                <a href="#">    Contact    </a>
-            </nav>
-        </header>
+                <div id="logo">Your Logo here</div>
         
-        <article>
-            <header>
+                <label for="drop" class="toggle">Menu</label>
+                <input type="checkbox" id="drop" />
+                    <ul class="menu">
+                        <li><a href="#">Home</a></li>
+                        
+                            <li><a href="#">Partnership</a></li>
+                            <li>
+                            <!-- First Tier Drop Down -->
+                            <label for="drop-1" class="toggle">R & R +</label>
+                            <a href="#">R & R</a>
+                            <input type="checkbox" id="drop-1"/>
+                            <ul>
+                                <li><a href="#">Discipline</a></li>
+                                <li><a href="#">PA Links</a></li>
+                                <li><a href="#">Topics</a></li>
+                            </ul> 
+        
+                        </li>
+                        <li>
+        
+                        <!-- First Tier Drop Down -->
+                        <label for="drop-2" class="toggle">Collaboration +</label>
+                        <a href="#">Collaboration</a>
+                        <input type="checkbox" id="drop-2"/>
+                        <ul>
+                            <li><a href="#">Collaboration Projects</a></li>
+                            <li><a href="#">Contact</a></li>
+                           
+                        </ul>
+                        </li>
 
-            </header>
-            <p>
-                <div>
-                    <p txt=intro.txt ></p>
-                </div>
-                
-            </p>
+                        <li>
+                        <label for="drop-3" class="toggle">About +</label>
+                        <a href="#">About</a>
+                        <input type="checkbox" id="drop-3"/>
+                        <ul>
+                            <li><a href="#">Who We Are</a></li>
+                            <li><a href="#">Our Vision</a></li>
+                            <li><a href="#">Our Purpose</a></li>
+                            <li><a href="#">Where to Fund Us</a></li>
+                           
+                        </ul>
+                        </li>
+                           
+                        
+                    </ul>
+                </nav>       
         
-            <p>
+            <p class="about-company">
                 AGBIOENG Processing Specialists Inc. is a Canadian start-up business entity focused on providing expert advice; sharing technological application ideas; co-develop a process / product of higher value at the interface of Agriculture and Bioresources (land, water, energy and food) by appropriate R & D interventions and enhanced business and commercialization potential. Dr. Venkatesh Meda is an expert researcher and an entrepreneur in the field of agri-food, feed and bioprocessing sector for adding value and improving post- harvest losses and economic potential. His academic experience spans over two decades cutting across several disciplines is recognized globally.
             </p>
             <img src="/images/global-research.jpg" alt="global research">
 
             <aside class="aside">
-                <h3> Related Topics </h3>
+                <h3 class="related-topics-heading"> Related Topics </h3>
                 <ul>
-                    <li> <img src="images/agriculture-research.jpeg" alt="argiculture research" width="200" height="150" /> Research</li>
+                    <li> <img src="images/agriculture-research.jpeg" alt="agriculture research" width="200" height="150" /> Research</li>
                     <li>Mobility</li>
-                    <li>industrial</li>
+                    <li>Industrial</li>
                     <li>Professional Development</li>
                 </ul>
             </aside>
 
         <footer id="footer" class="footer">
-            <ul>
+            <ul class="developer-contact-info">
                 <li>Phone: 603-xxx-xxxxx</li>
                 <li>email: znisar@hotmail.com</li>
             </ul>
