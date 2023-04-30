@@ -14,6 +14,25 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	}
 
+
+
+.logo{
+    width: 100px; 
+    height: 100px; 
+    position: relative; 
+    top: 20px;
+    left: 20px;   
+}
+
+
+.logo-label{
+	text-align: left;  
+	position: relative; 
+	left: 25px;  
+}
+
+
+
 h1 {
 	font-size: 60px;
 	text-align: center;
@@ -61,7 +80,7 @@ p {
 nav { 
 	margin:0;
 	padding: 0;
-	background-color: #254441;
+	background-color: #1091ad;
 }
 
 #logo {
@@ -80,6 +99,8 @@ nav:after {
 	display:table;
 	clear:both;
 }
+
+
 
 /* Removing padding, margin and "list-style" from the "ul",
  * and adding "position:reltive" */
@@ -106,6 +127,7 @@ nav a {
 	color:#FFF;
 	font-size:17px;
 	text-decoration:none;
+	background-color: #1091ad; 
 }
 
 
@@ -151,7 +173,7 @@ nav ul ul ul li {
 
 	
 /* Change ' +' in order to change the Dropdown symbol */
-li > a:after { content:  ' +'; }
+li > a:after { content:  ' ˅'; }
 li > a:only-child:after { content: ''; }
 
 
@@ -182,7 +204,7 @@ li > a:only-child:after { content: ''; }
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #254441;
+		background-color: #1091ad;
 		padding:14px 20px;	
 		color:#FFF;
 		font-size:17px;
@@ -209,6 +231,8 @@ li > a:only-child:after { content: ''; }
 	nav ul ul a {
 		padding: 0 40px;
 	}
+
+	
 
 	nav ul ul ul a {
 		padding: 0 80px;
@@ -268,4 +292,10 @@ li > a:only-child:after { content: ''; }
 		width: 94%;
 	}
 
+}
+
+
+/*Code for coloring all links and menus the same color for all screen sizes*/
+nav ul li a{
+	background-color: #1091ad;  
 }

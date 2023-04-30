@@ -30,9 +30,13 @@ h1{
 }
 
 .company-name{
-    color: black; 
+    font-size: 40px; 
+    color: #1091ad; 
     text-align: left;  
 }
+
+
+
 h2{
     font-size: 40px;
     line-height: 1.5;
