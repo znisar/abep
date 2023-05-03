@@ -2,81 +2,127 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <script defer src="script.js"></script>
         
         <title>ABEP</title>
     </head>
     <body>
-        <header class="mainheader">
+        
+        
+        
             
-            <h1 class="company-name">AGBIOENG Processing Specialists Inc.</h1>
+            
             
             <!-- Navbar code goes here -->
-            <nav>
-                <div id="logo-space"><img class="logo" src="images/logo-image.png" alt="Water Droplet Logo Image"><h3 class="logo-label">ABEP</h5></div>
-        
-                <label for="drop" class="toggle">Menu ˅</label>
-                <input type="checkbox" id="drop" />
-                    <ul class="menu">
-                        <li><a href="#">Home</a></li>
-                        
-                            <li><a href="#">Partnership</a></li>
-                            <li>
-                            <!-- First Tier Drop Down -->
-                            <label for="drop-1" class="toggle">R & R ˅</label>
-                            <a href="#">R & R </a>
-                            <input type="checkbox" id="drop-1"/>
-                            <ul>
-                                <li><a href="#">Discipline</a></li>
-                                <li><a href="#">PA Links</a></li>
-                                <li><a href="#">Topics</a></li>
-                            </ul> 
-        
-                        </li>
-                        <li>
-        
-                        <!-- First Tier Drop Down -->
-                        <label for="drop-2" class="toggle">Collaboration ˅</label>
-                        <a href="#">Collaboration</a>
-                        <input type="checkbox" id="drop-2"/>
+            <section class="navigation">
+                <div class="nav-container">
+                  <div class="brand">
+                    <a href="#!"><img class="brand-image" src="images/logo-image.png" alt="ABEP Logo"></a>
+                    <h4 class="brand-name">ABEP</h4>
+                  </div>
+                  <nav>
+                    <div class="nav-mobile">
+                      <a id="nav-ham" href="#!"><span id="ss"></span></a>        
+                    </div>
+                    <ul>
+                      <li>
+                        <a href="#!">Home</a>
                         <ul>
-                            <li><a href="#">Collaboration Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                           
+                          <li>
+                            <a class="dropdown-item" href="#!">Overview</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#!">Vision and Mission</a>
+                          </li>                          
                         </ul>
-                        </li>
-
-                        <li>
-                        <label for="drop-3" class="toggle">About ˅</label>
-                        <a href="#">About</a>
-                        <input type="checkbox" id="drop-3"/>
+                      </li>
+                      <li>
+                        <a href="#!">Partnership</a>
                         <ul>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Our Vision</a></li>
-                            <li><a href="#">Our Purpose</a></li>
-                            <li><a href="#">Where to Fund Us</a></li>
-                           
-                        </ul>
-                        </li>
-                           
+                          <li>
+                            <a class="dropdown-item" href="https://agriculture.canada.ca/en">Canadian Research Center</a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item" href="#!">Agriculture Canada</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#!">Chemical Companies</a>
+                              </li>                          
+                            </ul>
+                      </li>
+                      <li>
+                        <a href="#!">R & R</a>
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#!">Discipline</a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item" href="#!">PA Links</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#!">Topics</a>
+                              </li>                          
+                            </ul>
                         
+                      </li>
+                      <li>
+                        <a href="#!">Collaboration</a>
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#!">Collaboration Projects</a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item" href="#!">Contact</a>
+                              </li>
+                                                      
+                            </ul>
+                      </li>
+                      <li>
+                        <a href="#!">About</a>
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#!">Who We Are</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#!">Our Vision</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#!">Our Purpose</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#!">Where To Fund Us</a>
+                          </li>
+                        </ul>
+                      </li>
+                      
                     </ul>
-                </nav>       
-        
+                  </nav>
+                </div>
+              </section>
+              
+              
+           
+
+            <!-- About the company -->
+             
+                 
+        <header>
             <p class="about-company">
                 AGBIOENG Processing Specialists Inc. is a Canadian start-up business entity focused on providing expert advice; sharing technological application ideas; co-develop a process / product of higher value at the interface of Agriculture and Bioresources (land, water, energy and food) by appropriate R & D interventions and enhanced business and commercialization potential. Dr. Venkatesh Meda is an expert researcher and an entrepreneur in the field of agri-food, feed and bioprocessing sector for adding value and improving post- harvest losses and economic potential. His academic experience spans over two decades cutting across several disciplines is recognized globally.
             </p>
             <img src="images/global-research.jpg" alt="global research">
+        </header>  
 
             <aside class="aside">
                 <h3 class="related-topics-heading"> Related Topics </h3>
                 <ul>
                     <img src="images/agriculture-research.png" alt="agriculture research" width="200" height="150" /> 
-                    <li>Agricultural Research</li>
-                    <li>Mobility</li>
-                    <li>Industrial</li>
-                    <li>Professional Development</li>
+                    <li class="related-topic">Agricultural Research</li>
+                    <li class="related-topic">Mobility</li>
+                    <li class="related-topic">Industrial</li>
+                    <li class="related-topic">Professional Development</li>
                 </ul>
             </aside>
 
@@ -87,6 +133,7 @@
             </ul>
             <P>Copyright &copy; <script>document.write(new Date().getFullYear())</script> All Rights Reserved</P>
         </footer>
+    </body>
     
 
 </html>

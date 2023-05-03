@@ -1,11 +1,19 @@
 /*--- Universal Selector --- */
-*{
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 
 
+
 /*--- Main Header ---*/
-.mainheader{
+header{
     
     background-color: #e2e5e5;
     padding: 15px;
@@ -29,11 +37,6 @@ h1{
    
 }
 
-.company-name{
-    font-size: 40px; 
-    color: #1091ad; 
-    text-align: left;  
-}
 
 
 
@@ -59,6 +62,7 @@ p{
 }
 
 .about-company{
+    padding-top: 50px;  
     color: black; 
      
     text-align: left;  
@@ -70,6 +74,10 @@ p{
     border-bottom: 5px solid #1091ad;
     width: auto;
     
+}
+
+.related-topic{
+    padding-left: 20px;  
 }
 
 
