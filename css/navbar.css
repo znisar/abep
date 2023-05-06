@@ -30,22 +30,17 @@
   line-height: var(--nav-height);
   font-size: 1.4em;
   width: 200px;
-}
-.brand:hover {
-  background: var(--link-hover-color);
-  color: var(--nav-font-color);
+  background-color: black; 
 }
 
+
 .brand-image{
-  width: 30px;
+  width: 90px;
   height: 30px; 
   transform: translateY(25%);
 }
 
-.brand-name{
-  display: inline-block; 
-  padding-left: 10px;  
-}
+
 
 .brand a,
 .brand a:visited {
