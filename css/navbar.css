@@ -1,8 +1,8 @@
 @charset "UTF-8";
 :root {
-  --nav-content-width: 1000px;
-  --nav-height: 50px;
-  --nav-link-height: 16px;
+  --nav-content-width: 600px;
+  --nav-height: 35px;
+  --nav-link-height: 10px;
   --nav-background: #1091ad;
   --nav-font-color: #FFF;
   --link-hover-color: black;
@@ -25,19 +25,19 @@
 /* Logo */
 .brand {
   position: absolute;
-  padding-left: 20px;
+  left: 0;    
   float: left;
-  line-height: var(--nav-height);
-  font-size: 1.4em;
-  width: 200px;
+  line-height: var(--nav-height); 
+  width: 100px;
   background-color: black; 
 }
 
 
 .brand-image{
-  width: 90px;
-  height: 30px; 
-  transform: translateY(25%);
+  width: 75px;
+  height: 20px; 
+  
+  transform: translate(10%, 25%);
 }
 
 
@@ -126,6 +126,7 @@ nav > ul > li > ul > li a {
   cursor: pointer;
   padding: 10px 35px 10px 0px;
 }
+
 #nav-ham span,
 #nav-ham span:before,
 #nav-ham span:after {
@@ -135,7 +136,7 @@ nav > ul > li > ul > li a {
   width: 35px;
   background: var(--nav-font-color);
   position: absolute;
-  display: block;
+   display: block;
   content: '';
   transition: all 300ms ease-in-out;
 }
@@ -145,6 +146,9 @@ nav > ul > li > ul > li a {
 #nav-ham span:after {
   bottom: -10px;
 }
+
+
+
 #nav-ham.active span {
   background-color: transparent;
 }
@@ -159,6 +163,11 @@ nav > ul > li > ul > li a {
   transform: rotate(-45deg);
 
  
+}
+
+#ss{
+  top: 1px; 
+  right: 12px;  
 }
 
 @media screen and (min-width: 800px) {
@@ -201,6 +210,10 @@ nav > ul > li > ul > li a {
 }
 
 @media screen and (max-width: 799px){
+ :root {
+  --nav-content-width: 100%;
+ }
+
   .dropdown-item{
     width: 100%;  
   }
