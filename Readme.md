@@ -12,9 +12,15 @@ See Sample Site
 https://www.gentleprocessing.ca/
 
 
-#SITE Structure
+**#SITE Structure**
 - ___Home
-   - 
+   - Header log
+   - Navbar
+   - footer 
+   - Slider with 3 part page which can be scrolled into 2 parts: 
+      - Part 1 - Slide show showing 6 slides on what the company does 
+      - Part 2 - Tiles showing services / values  
+   
 - ___Partnership
 - ___R&R
    - Descipline
@@ -33,4 +39,4 @@ https://www.gentleprocessing.ca/
 - Remove the drop down arrow
 - Make drop down appear on hover instead of click 
 - Set the drop down color # to align with color schemes 
-- 
+
