@@ -11,8 +11,10 @@ https://drive.google.com/drive/folders/188063s7OlIHnW5gru77NJbzjHZ8oTw-V
 See Sample Site 
 https://www.gentleprocessing.ca/
 
+
 #SITE Structure
 - ___Home
+   - 
 - ___Partnership
 - ___R&R
    - Descipline
@@ -27,4 +29,8 @@ https://www.gentleprocessing.ca/
    - Our Purpose
    - Where to Fund us (Forms)
       
-
+**#NAV BAR**
+- Remove the drop down arrow
+- Make drop down appear on hover instead of click 
+- Set the drop down color # to align with color schemes 
+- 
