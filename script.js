@@ -53,7 +53,7 @@ window.addEventListener(
 
     // Toggle 2nd level visibility on click on any link that has a 2nd level dropdown
     for (let item of navullis) {
-      item.addEventListener("click", toggle2nd, false);
+      item.addEventListener("mouseover", toggle2nd, false);
     }
 
     // Hamburger or X click

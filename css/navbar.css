@@ -83,6 +83,8 @@ nav > ul > li a:visited:hover {
   color: var(--nav-font-color);
   
 }
+
+
 nav > ul > li a:not(:only-child):after,
 nav > ul > li a:visited:not(:only-child):after {
   padding-left: 4px;
