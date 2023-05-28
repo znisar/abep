@@ -2,62 +2,138 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <link href="style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <script defer src="script.js"></script>
+        
         <title>ABEP</title>
     </head>
     <body>
-        <header class="mainheader">
-            <img
-            src="images/ABEP logo.png"
-            alt="Company Logo"
-            height="50"
-            width="150"
-            />
-            <H1>AGBIOENG Processing Specialists Inc.</H1>
+        
+        
+        
             
-            <nav>
-                <a href="#">    home    </a>
-                <a href="#">    Partnership    </a>
-                <a href="#">    Descipline    </a>
-                <a href="#">    Partnership    </a>
-                <a href="#">    About Us    </a>
-                <a href="#">    Contact    </a>
-            </nav>
-        </header>
-        
-        <article>
-            <header>
-
-            </header>
-            <p>
-                <div>
-                    <p txt=intro.txt ></p>
+            
+            
+            <!-- Navbar code goes here -->
+            <section class="navigation">
+                <div class="nav-container">
+                  <div class="brand">
+                    <a href="#!"><img class="brand-image" src="images/ABEP-logo.png" alt="ABEP Logo"></a>
+                    
+                  </div>
+                  <nav>
+                    <div class="nav-mobile">
+                      <a id="nav-ham" href="#!"><span id="ss"></span></a>        
+                    </div>
+                    <ul>
+                      <li>
+                        <a href="#!">Home</a>
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#!">Overview</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#!">Vision and Mission</a>
+                          </li>                          
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#!">Partnership</a>
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="https://agriculture.canada.ca/en">Canadian Research Center</a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item" href="#!">Agriculture Canada</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#!">Chemical Companies</a>
+                              </li>                          
+                            </ul>
+                      </li>
+                      <li>
+                        <a href="#!">R & R</a>
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#!">Discipline</a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item" href="#!">PA Links</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#!">Topics</a>
+                              </li>                          
+                            </ul>
+                        
+                      </li>
+                      <li>
+                        <a href="#!">Collaboration</a>
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#!">Collaboration Projects</a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item" href="#!">Contact</a>
+                              </li>
+                                                      
+                            </ul>
+                      </li>
+                      <li>
+                        <a href="#!">About</a>
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#!">Who We Are</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#!">Our Vision</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#!">Our Purpose</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#!">Where To Fund Us</a>
+                          </li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                  </nav>
                 </div>
-                
-            </p>
-        
-            <p>
+              </section>
+              
+              
+           
+
+            <!-- About the company -->
+             
+                 
+        <header>
+            <p class="about-company">
                 AGBIOENG Processing Specialists Inc. is a Canadian start-up business entity focused on providing expert advice; sharing technological application ideas; co-develop a process / product of higher value at the interface of Agriculture and Bioresources (land, water, energy and food) by appropriate R & D interventions and enhanced business and commercialization potential. Dr. Venkatesh Meda is an expert researcher and an entrepreneur in the field of agri-food, feed and bioprocessing sector for adding value and improving post- harvest losses and economic potential. His academic experience spans over two decades cutting across several disciplines is recognized globally.
             </p>
-            <img src="/images/global-research.jpg" alt="global research">
+            <img src="images/global-research.jpg" alt="global research">
+        </header>  
 
             <aside class="aside">
-                <h3> Related Topics </h3>
+                <h3 class="related-topics-heading"> Related Topics </h3>
                 <ul>
-                    <li> <img src="images/agriculture-research.jpeg" alt="argiculture research" width="200" height="150" /> Research</li>
-                    <li>Mobility</li>
-                    <li>industrial</li>
-                    <li>Professional Development</li>
+                    <img src="images/agriculture-research.png" alt="agriculture research" width="200" height="150" /> 
+                    <li class="related-topic">Agricultural Research</li>
+                    <li class="related-topic">Mobility</li>
+                    <li class="related-topic">Industrial</li>
+                    <li class="related-topic">Professional Development</li>
                 </ul>
             </aside>
 
         <footer id="footer" class="footer">
-            <ul>
+            <ul class="developer-contact-info">
                 <li>Phone: 603-xxx-xxxxx</li>
                 <li>email: znisar@hotmail.com</li>
             </ul>
             <P>Copyright &copy; <script>document.write(new Date().getFullYear())</script> All Rights Reserved</P>
         </footer>
-    <>
+    </body>
+    
 
 </html>

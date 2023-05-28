@@ -1,13 +1,24 @@
 /*--- Universal Selector --- */
-*{
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
+
+
+
 /*--- Main Header ---*/
-.mainheader{
-    /* background-color: #e2e5e5;
+header{
+    
+    background-color: #e2e5e5;
     padding: 15px;
     padding-left: 20px;
-    padding-right: 20px; */
+    padding-right: 20px;
 
     padding: 20px 40px;
     margin-bottom: 10px;
@@ -25,6 +36,10 @@ h1{
     text-align: left;
    
 }
+
+
+
+
 h2{
     font-size: 40px;
     line-height: 1.5;
@@ -36,8 +51,21 @@ h3{
     font-size: 20px;
     text-align: center;
 }
+
+.related-topics-heading{
+    color: black; 
+}
+
 p{
+     
     font-size: 18px;
+}
+
+.about-company{
+    padding-top: 50px;  
+    color: black; 
+     
+    text-align: left;  
 }
 
 .aside{
@@ -46,6 +74,10 @@ p{
     border-bottom: 5px solid #1091ad;
     width: auto;
     
+}
+
+.related-topic{
+    padding-left: 20px;  
 }
 
 
@@ -70,20 +102,13 @@ p{
 }
 
 
-/*--- Link Styling links (LVHA) ---*/
-a:link{
-    color: #0e54eb;
+ul{
+    color: black;
+    text-align: left;  
 }
-a:visited{
-    color: #0e54eb;
+
+.developer-contact-info{
+    color: white; 
+    text-align: center;
 }
-a:hover{
-    font-size: 40px;
-    color: blue;
-    font-weight: normal;
-    text-decoration: underline orangered;
-}
-a:active{
-    background-color: greenyellow;
-    
-}
+

@@ -13,7 +13,12 @@ https://www.gentleprocessing.ca/
 
 #SITE Structure
 - ___Home
+   - Overview
+   - Vision and Mission
 - ___Partnership
+   - Canadian Reseach Center
+   - Agriculture Canada (Should take you to this site => https://agriculture.canada.ca/en)
+   - Chemical Companies
 - ___R&R
    - Descipline
    - PA Links
@@ -27,4 +32,13 @@ https://www.gentleprocessing.ca/
    - Our Purpose
    - Where to Fund us (Forms)
       
+
+#HOME Page
+1. Nav bar to be sticky 
+2. Nav bar to be left justified 
+3. Nav Bar to have less text width so drop down does not take 2 much space 
+4. Main Site to have detailed content & Tiles  
+5. Main Site to have slide show
+6. Footer page should be similar to Sample site 
+
 
