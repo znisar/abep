@@ -10,6 +10,12 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+#footer-logo{
+  height: 40px; 
+  position: relative; 
+  bottom: 10px;  
+}
+
 .main-footer {
   padding: 70px 0;
   display: flex;
