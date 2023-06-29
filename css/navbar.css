@@ -13,7 +13,8 @@
   height: var(--nav-height);
   background: var(--nav-background);
   position: sticky; 
-  top: 0;  
+  top: 0; 
+  z-index: 2;   
 }
 
 /* Logo + navigation bar, restricted width */
@@ -119,6 +120,7 @@ nav > ul > li > ul > li a {
   background: var(--nav-background);
   height: var(--nav-height);
   width: var(--nav-height);
+  z-index: 2;  
 }
 #nav-ham {
   position: absolute;
