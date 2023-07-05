@@ -91,6 +91,11 @@ p {
 	text-align: justify;
 }
 
+.slide-caption{
+	position: relative; 
+	top: 40px;  
+}
+
 
 
 /* line 32, ../scss/partials/_global.scss */
@@ -194,6 +199,7 @@ p {
 	right: 5px;
 	border: 3px solid black;
 }
+
 
 /* line 66, ../scss/partials/_carousel.scss */
 .button-container {
