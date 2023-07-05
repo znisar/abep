@@ -108,6 +108,8 @@ p {
 	box-shadow: 0 0 8px 1px #b3b6b6;
 }
 
+
+
 #carousel .animate {
 	animation: animate 1s;
 }
@@ -315,4 +317,95 @@ p {
 	position: relative; 
 	top: 20px;  
 	border: 1px solid black;   
+}
+
+@media screen and (max-width: 650px) {
+	#carousel{
+		height: 400px;  
+	}
+
+	.slide-image{
+		top: 60px;  
+		width: 200px;
+		height: 150px;  
+	}
+
+	.slide-caption{
+		top: 200px;  
+	}
+
+	
+}
+
+
+@media screen and (max-width: 500px) {
+	#carousel{
+		height: 400px;  
+	}
+
+	.slide-image{
+		top: 60px;  
+		width: 80px;
+		height: 60px;  
+	}
+
+	.slide-caption{
+		top: 200px;  
+	}
+
+	
+}
+
+@media screen and (max-width: 420px) {
+	#carousel{
+		height: 400px;  
+	}
+
+	.slide-image{
+		top: 60px;  
+		width: 150px;
+		height: 100px;  
+	}
+
+	.slide-caption{
+		top: 200px;  
+	}
+	
+
+}
+
+@media screen and (max-width: 320px) {
+	#carousel{
+		height: 400px;  
+	}
+
+	.slide-image{
+		top: 60px;  
+		width: 100px;
+		height: 70px;  
+	}
+
+	.slide-caption{
+		top: 200px;  
+	}
+
+	
+}
+
+@media screen and (max-width: 280px) {
+	#carousel{
+		height: 400px;  
+	}
+
+	.slide-image{
+		top: 60px;  
+		width: 70px;
+		height: 50px;  
+	}
+
+	.slide-caption{
+		top: 200px;  
+	}
+
+	
 }
