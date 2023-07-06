@@ -409,3 +409,7 @@ p {
 
 	
 }
+
+.button-container{
+	display: none;  
+}
